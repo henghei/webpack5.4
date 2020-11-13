@@ -9,7 +9,7 @@
 
    // lodash（目前通过一个 script 引入）对于执行这一行是必需的
    // lodash，现在通过一个 script 引入
-    element.innerHTML = _.join(['Hello', 'webpack','测试一下'], ' ');
+    element.innerHTML = _.join(['Hell12o', 'webpack','测试一下'], ' ');
     btn.innerHTML='点击这里111，然后查看console!'
     btn.onclick=printMe
     element.appendChild(btn)
